@@ -1,0 +1,5 @@
+name: 功不唐捐
+markdown: redcarpet
+pygments: true
+permalink: pretty
+timezone: Asia/Shanghai

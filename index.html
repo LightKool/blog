@@ -1,0 +1,19 @@
+---
+layout: default
+title: 功不唐捐
+---
+
+<div class="content">
+	<div class="head">
+		<h1>全部文章</h1>
+	</div>
+	<div class="tail">
+		<ul class="posts">
+			{% for post in site.posts %}
+			<li>
+				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
