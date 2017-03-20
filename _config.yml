@@ -3,4 +3,3 @@ markdown: redcarpet
 pygments: true
 permalink: pretty
 timezone: Asia/Shanghai
-baseurl: /
