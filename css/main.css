@@ -665,19 +665,19 @@ table tr td :last-child {
 /* --- Code blocks --- */
 
 pre {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5em;
 }
 pre code {
   white-space: pre;
 }
 pre.highlight, .highlight > pre, td.code pre {
-  background-color: #FAFAFA;
-  background-image: linear-gradient(#F9F9F9 50%, #FDFDFD 50%);
-  background-repeat: repeat;
+  background-color: #272822;
   background-size: 3em 3em;
   background-position: 0px 10px;
+  border-color: #272822;
   border-left: 7px solid #444;
+  color: #f8f8f2;
 }
 code table, code table td, code table th, code table tbody, code table tr,
 td.gutter pre {
@@ -686,7 +686,7 @@ td.gutter pre {
   background-color: #fff;
 }
 .highlight > pre {
-  padding: 0;
+  padding: 0 5px;
 }
 td.code pre {
   border-width: 0 0 0 2px;
